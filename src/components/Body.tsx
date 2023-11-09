@@ -23,8 +23,6 @@ export const Body = (): JSX.Element => {
   const [date, setDate] = useState(new Date(firstAllowedPayment));
   const paymentMonths = calculateNumberOfMonths(date);
 
-  console.log("value", value);
-
   return (
     <form className="mx-10 my-8 flex flex-col flex-1">
       <div className="grid grid-cols-2 sm:gap-8 gap-4 w-full">
