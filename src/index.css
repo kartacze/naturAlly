@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --bluegray-50: rgba(233, 238, 242, 1);
+  --bluegray-900: rgba(30, 42, 50, 1);
+  --gray: rgba(170, 170, 170, 1);
+  --level-4: 0px 16px 32px 0px rgba(30, 42, 50, 0.08);
+  --midnight-gray: rgba(77, 100, 117, 1);
+  --midnight-purple: rgba(66, 60, 102, 1);
+  --neutralwhite: rgba(255, 255, 255, 1);
+  --purple-gray: rgba(89, 93, 123, 1);
+  --salmon: rgba(255, 219, 203, 1);
+  --stroke: rgba(233, 238, 242, 1);
+}
+
+html,
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
